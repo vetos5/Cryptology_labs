@@ -16,7 +16,6 @@ class FrequencyTableApp(ctk.CTk):
         self.language = 'en'
         self.current_view = None
 
-        # Create the hamburger menu
         self.menu_frame = ctk.CTkFrame(self, height=40)
         self.menu_frame.pack(fill="x", side="top")
 
