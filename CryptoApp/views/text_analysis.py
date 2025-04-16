@@ -36,9 +36,9 @@ class TextAnalysisView(ctk.CTkFrame):
 
         self.clear_button = ctk.CTkButton(
             self.input_frame,
-            text="Clear",
+            text="X",
             command=self.clear_text,
-            fg_color="#e74c3c",  # Red color
+            fg_color="#e74c3c",
         )
         self.clear_button.pack(side="left", padx=5)
 
